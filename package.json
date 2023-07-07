@@ -1,0 +1,21 @@
+{
+  "name": "javascript-name-sorter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "name-sorter.js",
+  "scripts": {
+    "build": "pkg name-sorter.js -o name-sorter",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^29.6.0",
+    "pkg": "^5.8.1"
+  }
+}
