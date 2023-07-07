@@ -12,6 +12,10 @@ program
   .action((file) => {
     const filePath = resolveFilePath(file);
     const names = readNamesFromFile(filePath);
+    /*
+    sort() function in JavaScript typically uses a variation of the quicksort algorithm.
+    Average time complexity of O(n log n)
+    */
     names.sort(nameSorter);
     printNamesToConsole(names);
     writeSortedNamesToFile(names, "sorted-names-list.txt");
