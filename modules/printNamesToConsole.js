@@ -1,10 +1,9 @@
 /*
 This function will print each name provided in the array to the console.
 */
-
 const printNamesToConsole = (names) => {
   for (let name of names) {
-    console.log(name);
+    console.log(name.fullName);
   }
 };
 module.exports = printNamesToConsole;
